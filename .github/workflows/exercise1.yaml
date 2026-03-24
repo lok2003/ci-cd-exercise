@@ -11,4 +11,5 @@
         steps:
             - name: learning
               run: "echo Hello How are You?"
-        
+            - name: list env
+              run: printenv
